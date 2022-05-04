@@ -52,5 +52,6 @@ public class WordFrequencies {
         String word = myWords.get(maxDex);
         int value = myFreqs.get(maxDex);
         System.out.println("The word that occurs most often and its count are: " +word+" "+value);
+        //System.out.println(myWords.size());
     }
 }
